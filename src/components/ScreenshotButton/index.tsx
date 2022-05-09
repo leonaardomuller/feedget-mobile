@@ -19,7 +19,7 @@ export function ScreenshotButton({
   return (
     <TouchableOpacity
       style={styles.container}
-      onPress={screenshot ? onRemoveShot : () => onTakeShot}
+      onPress={screenshot ? onRemoveShot : onTakeShot}
     >
       {screenshot ? (
         <View>
